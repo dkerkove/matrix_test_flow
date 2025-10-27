@@ -18,11 +18,10 @@ struct ContentView: View {
             WelcomeView(username: username)
         } else {
             VStack(spacing: 24) {
-                Text("Login")
+                Text("Login test")
                     .font(.largeTitle)
                     .bold()
 
-                
                 TextField("Username", text: $username)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.horizontal)
