@@ -22,6 +22,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .bold()
 
+                
                 TextField("Username", text: $username)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.horizontal)
