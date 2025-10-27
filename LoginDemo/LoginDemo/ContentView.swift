@@ -18,7 +18,7 @@ struct ContentView: View {
             WelcomeView(username: username)
         } else {
             VStack(spacing: 24) {
-                Text("Login test")
+                Text("Login")
                     .font(.largeTitle)
                     .bold()
 
