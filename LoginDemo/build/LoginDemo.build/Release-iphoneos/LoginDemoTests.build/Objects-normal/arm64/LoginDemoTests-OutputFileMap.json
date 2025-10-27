@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests-master.swiftconstvalues",
+    "dependencies" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests-master.d",
+    "diagnostics" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests-master.dia",
+    "emit-module-dependencies" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests-master.swiftdeps"
+  },
+  "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemoTests/LoginDemoTests.swift" : {
+    "index-unit-output-path" : "/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests.o",
+    "llvm-bc" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests.bc",
+    "object" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemoTests.build/Objects-normal/arm64/LoginDemoTests.o"
+  }
+}

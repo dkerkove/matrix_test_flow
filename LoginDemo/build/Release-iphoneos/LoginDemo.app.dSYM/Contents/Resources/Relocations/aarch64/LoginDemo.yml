@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/Release-iphoneos/LoginDemo.app/LoginDemo'
+relocations:     []
+...

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemo/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Invalid credentials",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Login",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Username",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign In",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome, %@!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "Log Out",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 67
+        }
+      }
+    ]
+  },
+  "version": 1
+}

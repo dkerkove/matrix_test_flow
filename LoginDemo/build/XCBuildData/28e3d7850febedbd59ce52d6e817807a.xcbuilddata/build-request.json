@@ -1,0 +1,49 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "3d0b6894154daa6066e2dde577425c85a67c5d2a5ae477a89a494ca706659961"
+    },
+    {
+      "guid" : "3d0b6894154daa6066e2dde577425c85514d5ad23bbadaf3ba0f2b0b500ab4ba"
+    },
+    {
+      "guid" : "3d0b6894154daa6066e2dde577425c85c4d6258e7f8649da8410ec8877569a78"
+    },
+    {
+      "guid" : "3d0b6894154daa6066e2dde577425c85a67c5d2a5ae477a89a494ca706659961"
+    }
+  ],
+  "containerPath" : "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemo.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "DEVELOPMENT_TEAM" : "KB72KUR5YT"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

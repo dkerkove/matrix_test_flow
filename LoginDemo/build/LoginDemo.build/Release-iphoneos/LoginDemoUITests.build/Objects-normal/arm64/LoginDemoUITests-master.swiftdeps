@@ -1,0 +1,7 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "42ef131fd4cd800dccbb1994fdd3b2c11482195a6fa1fa1ed614fb89ebd7e0fb"
+build_start_time: [1761608583, 769027000]
+build_end_time: [1761608584, 356480000]
+inputs:
+  "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemoUITests/LoginDemoUITests.swift": !dirty [1761594811, 419478832]
+  "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemoUITests/LoginDemoUITestsLaunchTests.swift": !dirty [1761594811, 419627873]

@@ -1,0 +1,9 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "3b36b3695dc414ed6dd150f4702f55ca4b4c8f5dac6c81aa758fb745adcdcf58"
+build_start_time: [1761606869, 809358000]
+build_end_time: [1761606874, 337138000]
+inputs:
+  "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemo/ContentView.swift": [1761596440, 514885694]
+  "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/LoginDemo/LoginDemoApp.swift": [1761594811, 418818627]
+  ? "/Users/dankerkove/Documents/xcode/login_demo/LoginDemo/build/LoginDemo.build/Release-iphoneos/LoginDemo.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1761606869, 763602731]

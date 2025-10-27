@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		3772D6A82EAFF223000C87AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3772D68F2EAFF221000C87AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3772D6962EAFF221000C87AF;
-			remoteInfo = LoginDemo;
-		};
-		3772D6B22EAFF223000C87AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3772D68F2EAFF221000C87AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3772D6962EAFF221000C87AF;
-			remoteInfo = LoginDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3772D6972EAFF221000C87AF /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3772D6A72EAFF223000C87AF /* LoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3772D6B12EAFF223000C87AF /* LoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = LoginDemo;
 			sourceTree = "<group>";
 		};
-		3772D6AA2EAFF223000C87AF /* LoginDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LoginDemoTests;
-			sourceTree = "<group>";
-		};
-		3772D6B42EAFF223000C87AF /* LoginDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LoginDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3772D6942EAFF221000C87AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3772D6A42EAFF223000C87AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3772D6AE2EAFF223000C87AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				3772D6992EAFF221000C87AF /* LoginDemo */,
-				3772D6AA2EAFF223000C87AF /* LoginDemoTests */,
-				3772D6B42EAFF223000C87AF /* LoginDemoUITests */,
 				3772D6982EAFF221000C87AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				3772D6972EAFF221000C87AF /* LoginDemo.app */,
-				3772D6A72EAFF223000C87AF /* LoginDemoTests.xctest */,
-				3772D6B12EAFF223000C87AF /* LoginDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 3772D6972EAFF221000C87AF /* LoginDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3772D6A62EAFF223000C87AF /* LoginDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3772D6BE2EAFF223000C87AF /* Build configuration list for PBXNativeTarget "LoginDemoTests" */;
-			buildPhases = (
-				3772D6A32EAFF223000C87AF /* Sources */,
-				3772D6A42EAFF223000C87AF /* Frameworks */,
-				3772D6A52EAFF223000C87AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3772D6A92EAFF223000C87AF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3772D6AA2EAFF223000C87AF /* LoginDemoTests */,
-			);
-			name = LoginDemoTests;
-			packageProductDependencies = (
-			);
-			productName = LoginDemoTests;
-			productReference = 3772D6A72EAFF223000C87AF /* LoginDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3772D6B02EAFF223000C87AF /* LoginDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3772D6C12EAFF223000C87AF /* Build configuration list for PBXNativeTarget "LoginDemoUITests" */;
-			buildPhases = (
-				3772D6AD2EAFF223000C87AF /* Sources */,
-				3772D6AE2EAFF223000C87AF /* Frameworks */,
-				3772D6AF2EAFF223000C87AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3772D6B32EAFF223000C87AF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3772D6B42EAFF223000C87AF /* LoginDemoUITests */,
-			);
-			name = LoginDemoUITests;
-			packageProductDependencies = (
-			);
-			productName = LoginDemoUITests;
-			productReference = 3772D6B12EAFF223000C87AF /* LoginDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					3772D6962EAFF221000C87AF = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					3772D6A62EAFF223000C87AF = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 3772D6962EAFF221000C87AF;
-					};
-					3772D6B02EAFF223000C87AF = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 3772D6962EAFF221000C87AF;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				3772D6962EAFF221000C87AF /* LoginDemo */,
-				3772D6A62EAFF223000C87AF /* LoginDemoTests */,
-				3772D6B02EAFF223000C87AF /* LoginDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3772D6952EAFF221000C87AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3772D6A52EAFF223000C87AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3772D6AF2EAFF223000C87AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3772D6A32EAFF223000C87AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3772D6AD2EAFF223000C87AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3772D6A92EAFF223000C87AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3772D6962EAFF221000C87AF /* LoginDemo */;
-			targetProxy = 3772D6A82EAFF223000C87AF /* PBXContainerItemProxy */;
-		};
-		3772D6B32EAFF223000C87AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3772D6962EAFF221000C87AF /* LoginDemo */;
-			targetProxy = 3772D6B22EAFF223000C87AF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3772D6B92EAFF223000C87AF /* Debug */ = {
@@ -409,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.corellium.LoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerkove.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,83 +294,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.corellium.LoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerkove.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3772D6BF2EAFF223000C87AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KB72KUR5YT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.corellium.LoginDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginDemo";
-			};
-			name = Debug;
-		};
-		3772D6C02EAFF223000C87AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KB72KUR5YT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.corellium.LoginDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginDemo";
-			};
-			name = Release;
-		};
-		3772D6C22EAFF223000C87AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KB72KUR5YT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.corellium.LoginDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LoginDemo;
-			};
-			name = Debug;
-		};
-		3772D6C32EAFF223000C87AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KB72KUR5YT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.corellium.LoginDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LoginDemo;
 			};
 			name = Release;
 		};
@@ -535,24 +319,6 @@
 			buildConfigurations = (
 				3772D6BC2EAFF223000C87AF /* Debug */,
 				3772D6BD2EAFF223000C87AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3772D6BE2EAFF223000C87AF /* Build configuration list for PBXNativeTarget "LoginDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3772D6BF2EAFF223000C87AF /* Debug */,
-				3772D6C02EAFF223000C87AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3772D6C12EAFF223000C87AF /* Build configuration list for PBXNativeTarget "LoginDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3772D6C22EAFF223000C87AF /* Debug */,
-				3772D6C32EAFF223000C87AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

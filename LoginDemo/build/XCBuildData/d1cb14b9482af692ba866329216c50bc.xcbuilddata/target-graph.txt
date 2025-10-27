@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'LoginDemoUITests' in project 'LoginDemo'
+➜ Explicit dependency on target 'LoginDemo' in project 'LoginDemo'
+Target 'LoginDemoTests' in project 'LoginDemo'
+➜ Explicit dependency on target 'LoginDemo' in project 'LoginDemo'
+Target 'LoginDemo' in project 'LoginDemo' (no dependencies)
